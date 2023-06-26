@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AB798">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="FOLLOW THESE STEPS TO CREATE YOUR ACCOUNT"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:fontFamily="sans-serif"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Enter Your Email"
+        android:layout_marginLeft="45dp"
+        android:textColorHint="#FFFFFF"
+        android:padding="8dp"
+        android:background="@drawable/slots"
+        android:textSize="16sp"
+        android:inputType="textEmailAddress" />
+
+    <!-- Password input field -->
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="45dp"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:padding="8dp"
+        android:ems="10"
+        android:background="@drawable/slots"
+        android:textSize="16sp"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editTextRePassword"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="45dp"
+        android:hint="Re-enter Password"
+        android:textColorHint="#FFFFFF"
+        android:padding="8dp"
+        android:ems="10"
+        android:background="@drawable/slots"
+        android:textSize="16sp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="Create Account"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/btn_signup"/>
+
+
+</LinearLayout>

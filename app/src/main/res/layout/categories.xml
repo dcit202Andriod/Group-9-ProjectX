@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AB798">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/back_button"
+         />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose Your Desired Category"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:drawableTop="@drawable/school"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Student of the Year"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/category_colors"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/category_colors"
+        android:text="Game of the Year"
+        android:drawableTop="@drawable/game"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_marginLeft="45dp"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="320dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="10dp"
+        android:text="Song of the Year"
+        android:drawableTop="@drawable/song"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/category_colors"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:text="Create your own poll"
+        android:layout_marginTop="50dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/btn_signup"/>
+
+</LinearLayout>

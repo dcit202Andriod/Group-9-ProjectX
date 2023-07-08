@@ -32,6 +32,11 @@ GitHub:  https://github.com/rooseveltedem
 GitHub username: Joshuaknykan
 GitHub username: https://github.com/Joshuaknykan
 
+•	Nana Sakyi Twumhene 10963005
+GitHub username: 10963005
+GitHub link: https://github.com/10963005
+
+
 **Getting Started**
 To get started with the app, you will need to have Android Studio installed on your computer.
 Once you have Android Studio installed, you can clone the repository to your local machine by running the following command in your terminal:

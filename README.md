@@ -3,7 +3,7 @@
 # UG Voting App
 This is a voting app that allows users to vote for various leadership position of the Student Representative Council (SRC) of University of Ghana.The app is written in Java using Android Studio.
 
-# Authors
+**Authors**
 •	Eddy Guebre  10940005
 GitHub username: EddyGuebre 
 GitHub link: https://github.com/EddyGuebre

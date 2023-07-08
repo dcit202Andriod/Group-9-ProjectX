@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"> <!-- Set the background color here -->
+
+    <!-- UI elements and other layout content -->
+
+    <!-- Welcome Text -->
+    <ImageView
+        android:id="@+id/ug_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/university_of_ghana_logo"
+        android:layout_margin="10dp"/>
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="University of Ghana"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Campus Voting"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_welcome"
+        android:textSize="20sp"/>
+
+
+    <!-- Choose Category Button -->
+
+    <TextView
+        android:id="@+id/select_the_category_of_nominees"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/Turquoise"
+        android:text="@string/category"
+        android:textSize="26dp"
+        android:gravity="center"
+        android:fontFamily="@font/roboto_black"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_welcome" />
+
+    <!-- Category Selection Buttons -->
+
+    <!-- activity_main.xml -->
+
+
+    <TextView
+        android:id="@+id/text_president"
+        android:layout_width="315dp"
+        android:layout_height="91dp"
+        android:layout_below="@id/select_the_category_of_nominees"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="100dp"
+        android:text="UG SRC President"
+        android:fontFamily="@font/roboto_black"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:backgroundTint="#B5034BC8"
+
+        android:textSize="25dp"
+        android:onClick="openPresidentCategory"/>
+
+    <TextView
+        android:id="@+id/text_secretary"
+        android:layout_width="319dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/text_president"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/roboto_black"
+        android:background="@drawable/rectangle"
+        android:gravity="center"
+        android:text="General Secretary"
+        android:backgroundTint="#9C27B0"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/text_treasurer"
+        android:layout_width="322dp"
+        android:layout_height="87dp"
+        android:layout_below="@id/text_secretary"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="15dp"
+        android:text="SRC Treasurer"
+        android:background="@drawable/rectangle"
+        android:fontFamily="@font/roboto_black"
+        android:gravity="center"
+        android:backgroundTint="#4CAF50"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/log_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/text_treasurer"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>

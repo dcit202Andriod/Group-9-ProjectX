@@ -36,6 +36,10 @@ GitHub username: https://github.com/Joshuaknykan
 GitHub username: 10963005
 GitHub link: https://github.com/10963005
 
+•	Solomon Cudjoe 10957298
+GitHub username: Solomon-Cudjoe
+GitHub link: https://github.com/Solomon-Cudjoe
+
 
 **Getting Started**
 To get started with the app, you will need to have Android Studio installed on your computer.

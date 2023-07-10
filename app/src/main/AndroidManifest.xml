@@ -15,23 +15,30 @@
         android:theme="@style/Theme.Login_Register"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
         <activity
             android:name=".treasurer"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".secretary"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".thank_you"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="false" />
         <activity
             android:name=".landing_page"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+
         <activity
             android:name="com.example.Voting_APP.Splash"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN"
+                    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
@@ -43,7 +50,8 @@
             android:name="com.example.Voting_APP.SignUp"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
-        <activity android:name="com.example.Voting_APP.MainActivity" />
+        <activity android:name="com.example.Voting_APP.MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"/>
     </application>
 
 </manifest>

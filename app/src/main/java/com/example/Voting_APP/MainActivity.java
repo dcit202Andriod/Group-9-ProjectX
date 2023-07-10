@@ -6,6 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -50,11 +51,13 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    @SuppressLint("WrongViewCast")
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         voteButton = findViewById(R.id.vote_btn);
         rad_p1 = findViewById(R.id.rad_p1);
@@ -134,6 +137,7 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
 
 
         image_button.setOnClickListener(new View.OnClickListener() {

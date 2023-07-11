@@ -1,7 +1,7 @@
 # ProjectX
 
 # UG Voting App
-This is a voting app that allows users to vote for various leadership position of the Student Representative Council (SRC) of University of Ghana.The app is written in Java using Android Studio.
+This is a voting app that allows users to vote for various leadership positions of the Student Representative Council (SRC) of the University of Ghana. The app is written in Java using Android Studio.
 
 **Authors**
 •	Eddy Guebre  10940005
@@ -14,7 +14,7 @@ GitHub link: https://github.com/GyetiJulius
 
 •	Bright Amoah 10946287
 GitHub username: brightamoah
-GitHub link: : https://github.com/brightamoah
+GitHub link: https://github.com/brightamoah
 
 •	Gyamfi Caleb Jeff 10967054
 GitHub username: calebgrae09

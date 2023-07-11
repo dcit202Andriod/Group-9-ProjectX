@@ -138,7 +138,6 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
         image_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -150,3 +149,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
  }
+

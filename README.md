@@ -41,7 +41,7 @@ GitHub username: Solomon-Cudjoe
 GitHub link: https://github.com/Solomon-Cudjoe
 
 
-**Getting Started**
+**Installation**
 To get started with the app, you will need to have Android Studio installed on your computer.
 Once you have Android Studio installed, you can clone the repository to your local machine by running the following command in your terminal:
 https://github.com/dcit202Andriod/Group-9-ProjectX
